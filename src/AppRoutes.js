@@ -10,6 +10,7 @@ export const AppRoutes = () =>{
         <Routes>
             <Route path="/" element={<Index/>}></Route>
             <Route path="/bgcolor/:colorname" element={<BackgroundColorChanger/>}></Route>
+            <Route path="calculator" element={<Calculator/>}></Route>
         </Routes>
     )
 }
